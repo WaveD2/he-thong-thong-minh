@@ -53,7 +53,8 @@ YOLOv5 được sử dụng cho cả nhận diện biển số và OCR.
 
 Tải gói YOLOv5 từ Google Drive:
 Gói YOLOv5
-
+Cài đặt yolov5
+ [yolov5 - google drive](https://drive.google.com/file/d/1g1u7M4NmWDsMGOppHocgBKjbwtDA-uIu/view?usp=sharing)
 
 Giải nén thư mục yolov5 và sao chép vào thư mục dự án (ví dụ: he-thong-thong-minh/yolov5).
 
@@ -69,12 +70,12 @@ Tải các tập dữ liệu để huấn luyện cả hai mô hình:
 
 Tập Dữ Liệu Nhận Diện Biển Số:
 Link Tải
-
+- [License Plate Detection Dataset](https://drive.google.com/file/d/1xchPXf7a1r466ngow_W_9bittRqQEf_T/view?usp=sharing)
 
 Tập Dữ Liệu Nhận Diện Ký Tự (OCR):
 Link Tải
 
-
+- [Character Detection Dataset](https://drive.google.com/file/d/1bPux9J0e1mz-_Jssx4XX1-wPGamaS8mI/view?usp=sharing)
 
 2. Chuẩn Bị Dữ Liệu
 
@@ -107,7 +108,6 @@ Tham số:
 --data LP_detection.yaml: File cấu hình dữ liệu.
 --weights model/LP_detector.pt: Trọng số đã được huấn luyện trước.
 --name LP_detector: Tên thư mục kết quả.
-
 
 
 4. Huấn Luyện Mô Hình OCR
